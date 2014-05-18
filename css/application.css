@@ -465,7 +465,7 @@ nav li{
   .path-icon-list li{
     position:relative;
     min-height:60px;
-    padding:0 0 30px 0
+    padding:10px 0 10px
   }
   .list-wrapper{
     overflow:hidden
@@ -499,15 +499,25 @@ nav li{
     opacity:.1
   }
   .timeline{
-    position:absolute;
-    top:1%;
-    transform:rotate(90deg);
-    left:120px;
-    width:1px;
+    /*/*position:absolute;
+    /*vertical-align: middle;*/
+    /*transform:rotate(90deg);*/
     /*height:99%;*/
+    /*top: -37px;*/
+    /*left:120px;
+    width:1px;
     height:0%;
     border-right-width:3px;
-    border-right-style:dashed
+    border-right-style:dashed*/
+    position:absolute;
+    border-top:2px dashed;
+    /*height: 1px;*/
+    width: 0%;
+    overflow:hidden;
+    margin-left: 70px;
+    top: 37px;
+    /*margin-bottom: 10px;*/
+
   }
   .card{
     padding:10px 20px;
@@ -570,11 +580,12 @@ nav li{
   }
 
   li.animate .timeline{
-    -webkit-animation:slide_down 1.2s 1 cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    -moz-animation:slide_down 1.2s 1 cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    -o-animation:slide_down 1.2s 1 cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    animation:slide_down 1.2s 1 cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    height:100%
+    -webkit-animation:slide_left 1.2s 1 cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    -moz-animation:slide_left 1.2s 1 cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    -o-animation:slide_left 1.2s 1 cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    animation:slide_left 1.2s 1 cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    /*top:-37px;*/
+    width:30%
   }
 
   @keyframes appear{
@@ -676,35 +687,47 @@ nav li{
       transform:scale(1, 1);opacity:1
     }
   }
-  @-webkit-keyframes slide_down{
+  @-webkit-keyframes slide_left{
     0%{
-      height:0%
+      /*top: -37px;*/
+      /*height:0%*/
+      width: 0%
     }
     100%{
-      height:100%
+      /*height:200%*/
+      width: 30%
     }
   }
-  @-moz-keyframes slide_down{
-    0%{
-      height:0%
+  @-moz-keyframes slide_left{
+   0%{
+      /*top: -37px;*/
+      /*height:0%*/
+      width: 0%
     }
     100%{
-      height:100%
+      /*height:200%*/
+      width: 30%
     }
-  }@-o-keyframes slide_down{
+  }@-o-keyframes slide_left{
     0%{
-      height:0%
+      /*top: -37px;*/
+      /*height:0%*/
+      width: 0%
     }
     100%{
-      height:100%
+      /*height:200%*/
+      width: 30%
     }
   }
-  @keyframes slide_down{
+  @keyframes slide_left{
     0%{
-      height:0%
+      /*top: -37px;*/
+      /*height:0%*/
+      width: 0%
     }
     100%{
-      height:100%
+      /*height:200%*/
+      width: 30%
     }
   }
 
