@@ -685,13 +685,15 @@ nav li{
   #g0v{color:#fff}#g0v h2{color:#fff}#g0v .bg-fire{background-image:url('/img/fire.jpg?1398929181')}#g0v .section-subtitle{font-size:2.75rem;text-align:justify}#g0v span[data-tooltip]{color:#64ce83}#g0v span[data-tooltip]:hover{color:#38b25c}#project{color:#fff}#project .bg-project{background-image:url('/img/project.jpg?1398929181')}#project h2{color:#f38253}#project p{font-size:1.125rem}#member{background:url('/img/cubes.png?1398929181')}#join h2{padding-bottom:10px}#join h3{color:#f27845;margin-top:-10px}@media only screen and (min-width: 40.063em){#join h3{font-size:1.75rem}}#join p{color:dimgrey;padding:20px 0 30px}@media only screen and (min-width: 40.063em){#join p{font-size:1.25rem}}#where h2{color:#70d28c}#where h4,#where p{color:#fff}#where .bg-where{background-image:url('/img/class.jpg?1398929181')}
 
   #public,#extend{
-    background:url('/img/paper-1.jpg');
+    /*background:url('/img/paper-1.jpg');*/
+    background: url('http://www.photos-public-domain.com/wp-content/uploads/2011/02/white-parchment-paper-texture.jpg');
   }
   #public li{
     font-size: 1.3rem;
-  }
+    
+  } 
   #contact{
-    background:url('/img/star-sky.jpg');
+    background:url('http://fc05.deviantart.net/fs34/i/2008/306/e/b/Starry_Sky_Stock_by_budgie.jpg');
     width: 100%;
     height: 360px;
     background-repeat: no-repeat; 
